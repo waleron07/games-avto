@@ -1,11 +1,11 @@
 import Baobab from 'baobab';
 
 import api from './api';
-import player from './player';
+import stamp from './stamp';
 
 export const tree = new Baobab({
   api,
-  player,
+  stamp,
 });
 
 global.tree = tree;

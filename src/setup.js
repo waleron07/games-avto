@@ -20,4 +20,5 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const $api = tree.select('api');
+const $stamp = tree.select('stamp');
 $api.set({ defaultRoot });
